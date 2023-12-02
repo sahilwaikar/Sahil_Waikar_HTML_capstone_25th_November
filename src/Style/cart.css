@@ -1,0 +1,45 @@
+.Cart_container {
+    overflow: auto;
+}
+
+.Cart_container table {
+    width: 100%;
+}
+
+.Cart_container table tr {
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+
+.Cart_container table tr .item_des {
+    display: flex;
+    flex-direction: row;
+}
+
+.Cart_container table tr .item_des button {
+    background-color: white;
+    height: 100px;
+    border: none;
+}
+
+.Cart_container table tr .item_des img {
+    width: 100px;
+    height: 100px;
+    margin-left: 30px;
+}
+
+.Cart_container .buynow_div {
+    margin: 50px 20px;
+}
+
+.Cart_container .buynow_div .BuyNow {
+    text-decoration: none;
+    background-color: orangered;
+    width: 100px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 25px;
+    color: white;
+}
+
+/*# sourceMappingURL=cart.css.map */
